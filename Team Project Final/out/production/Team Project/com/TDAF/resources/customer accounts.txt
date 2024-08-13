@@ -1,0 +1,4 @@
+City University of London,ACC0001,Prof David Rhind,Northampton Square, London EC1V 0HB,0207 040 8000,Fixed,No
+Random Name,ADSOM33,John Doe,22 address road JS5 6 BV ,0208925771,Fixed,Yes
+Tayo,20,Tayo David,123 SomeRoad Lane, AB1 2CD,01234567891,No,Yes
+David,21,TheNameOfTheCustomer,123 SomeRoad Lane, AB1 2CD,01234567891,Yes,No
