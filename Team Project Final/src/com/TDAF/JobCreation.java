@@ -58,15 +58,6 @@ public class JobCreation {
 
         CustomerComboBox.addItem(""); // Adding a blank customer at the start
 
-        try (Connection connection = connector.getConnection()) {
-            Statement stmt = connection.createStatement();
-            ResultSet rs = stmt.executeQuery("SELECT customerName FROM Customers");
-            while (rs.next()) {
-                CustomerComboBox.addItem(rs.getString("customerName"));
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
 
 
         try (Connection connection = connector.getConnection()) {

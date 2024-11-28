@@ -157,8 +157,8 @@ public class CreateCustomerAccount {
             pst.setString(3, contactNameField.getText());
             pst.setString(4, addressField.getText());
             pst.setString(5, phoneField.getText());
-            pst.setString(6,"Non-Valued");
-            pst.setString(7, emailField.getText());
+            pst.setString(6, emailField.getText());
+            pst.setString(7,"Non-Valued");
             pst.executeUpdate();
             JOptionPane.showMessageDialog(frame,"CUSTOMER CREATED");
             connection.close();
